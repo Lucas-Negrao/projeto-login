@@ -6,3 +6,47 @@
     Lilás = #5f2c83
 */
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #683c86b9;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+}
+
+section div#foto{
+    background: #683c86b9 url(../imagens/pexels-86844948-9373483.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: block;
+    height: 200px;
+    width: 250px;
+}
+
+section div#formulario{
+    padding: 10px;
+    display: block;
+}
