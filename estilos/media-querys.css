@@ -44,8 +44,9 @@
         height: 100%;
     }
 
-    section div#formulario {
+    section div#formulario >h1 p {
         width: 98%;
         padding: 10px;
+        display: inline-block;
     }
 }
