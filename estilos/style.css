@@ -63,19 +63,39 @@ div#formulario > p{
     margin-bottom: 10px;
 }
 
+form > div.campo> input{
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    height: 125%;  
+    padding: 4px;  
+    width: calc(100% - 55px);
+    transform: translateY(-1px);
+    border-radius: 8px;
+    border: none;
+}
+
+
 form > div.campo{
     background-color: gray;
     margin: 5px 0px;
-    border-radius:5px ;
+    border-radius:8px ;
     padding-bottom: 20px;
-    height: 20px;
+    height: 40px;
+    width: 100%;
 }
 
-div.campo> label{
+
+
+span.material-symbols-outlined{
+    font-size: 2em;
+    padding: 5px;
+    
+}
+
+div.campo>label{
     display: none;
-
 }
-
 
 form > input[type=submit]{
     display: block;
