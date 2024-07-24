@@ -24,14 +24,14 @@
         height: 100%;
     }
 
-    section div#formulario{
-        width: 70%;
+    div#formulario{
+        
+        width: 80%;
     }
 
     div#formulario > h1{
         font-size: 1em;
     }
-
 }
 
 @media screen and (min-width:768px)  {
