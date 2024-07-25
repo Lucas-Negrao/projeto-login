@@ -34,7 +34,7 @@ section {
     background-color: white;
     border-radius: 20px;
     width: 260px;
-    height: 520px;
+    height: 570px;
     transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease;
 }
