@@ -25,6 +25,7 @@ main{
 }
 
 section {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +66,7 @@ div#formulario > p{
 
 form > div.campo> input{
     font-weight: bolder;
-    background-color: rgb(255, 255, 255);
+    background-color:#dadada75;
     font-size: 1em;
     height: 125%;  
     padding: 4px;  
@@ -75,6 +76,10 @@ form > div.campo> input{
     border: none;
 }
 
+form > div.campo > input:focus-within{
+    background-color: white;
+    
+}
 
 form > div.campo{
     background-color: gray;
